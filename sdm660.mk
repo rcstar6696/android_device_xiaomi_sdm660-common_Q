@@ -289,6 +289,10 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc \
     fstab.qcom
 
+# Ion
+PRODUCT_PACKAGES += \
+    libion
+
 # IPv6
 PRODUCT_PACKAGES += \
     ebtables \
