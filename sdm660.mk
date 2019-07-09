@@ -215,8 +215,8 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.1_vendor
 
 # Doze
-#PRODUCT_PACKAGES += \
-#    XiaomiDoze
+PRODUCT_PACKAGES += \
+   XiaomiDoze
 
 # Device mapper verity
 PRODUCT_SYSTEM_VERITY_PARTITION=/dev/block/bootdevice/by-name/system
