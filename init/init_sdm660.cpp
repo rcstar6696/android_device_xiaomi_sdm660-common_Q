@@ -39,6 +39,8 @@
 #include <android-base/strings.h>
 #define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
 #include <sys/_system_properties.h>
+
+#include "vendor_init.h"
 #include "property_service.h"
 #include "init_sdm660.h"
 
@@ -46,8 +48,6 @@ using android::base::GetProperty;
 using android::init::property_set;
 using android::base::ReadFileToString;
 using android::base::Trim;
-namespace android {
-namespace init {
 
 char const *heapstartsize;
 char const *heapgrowthlimit;
@@ -105,5 +105,3 @@ void vendor_load_properties()
     }
   }
 }
-}  // namespace init
-} // namespace android
