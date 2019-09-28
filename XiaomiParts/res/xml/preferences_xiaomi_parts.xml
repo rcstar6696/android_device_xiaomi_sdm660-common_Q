@@ -102,7 +102,7 @@
         android:title="@string/hall_wakeup_title">
 
         <org.lineageos.settings.device.preferences.SecureSettingSwitchPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:key="hall"
             android:summary="@string/hall_wakeup_summary"
             android:title="@string/hall_title" />
