@@ -297,19 +297,18 @@ vendor/lib64/libtinyxml2_1.so|ba981e332895a053a67fc54a8190365a3ad37f2d
 vendor/lib/hw/vulkan.sdm660.so|87d87b2520d3a8adec7a24f5999a27b291edaeba
 vendor/lib64/hw/vulkan.sdm660.so|ad3a5d92c6c13ba0c937dd1b83f371e804a57c4e
 
-# Listen - from LA.UM.7.2.r1-06900-sdm660.0
-vendor/lib/hw/sound_trigger.primary.sdm660.so|bd7ce820f661e269dbb7ff68a7123f0247e225bc
-vendor/lib/libadpcmdec.so|7c12a153200fd2e9f1f6139fcf40beee1a96f48d
-vendor/lib/libgcs-calwrapper.so|79f99e29bf13b21cfa356cd805f363cc19efc59e
-vendor/lib/libgcs-ipc.so|6028691d48595aa9037b75aa731c0a05472bf2e2
-vendor/lib/libgcs-osal.so|302b254ab3afc2f088bdb9a0c8564055b4eca4af
-vendor/lib/libgcs.so|9357ae12df1096f478df6488a9199ab2baf41d45
-vendor/lib/libsmwrapper.so|05c0a44547291719a32a52fb8db102c6d19e9315
-vendor/lib64/hw/sound_trigger.primary.sdm660.so|f8626e5c30047a73373b64e44a9ea02886354844
-vendor/lib64/libgcs-calwrapper.so|8551451d41e218a5443efc2dc128277fe9741e0c
-vendor/lib64/libgcs-ipc.so|027147c87f15a8cb2e5f54e8d8e56d33b9476e47
-vendor/lib64/libgcs-osal.so|d70699bde8fe27c77bc6d858ff4cd5137c5ed36b
-vendor/lib64/libgcs.so|89b765782c7a4d935bce8954e8161d0f7ab07c50
+# Listen - from LA.UM.8.2.r1-04300-sdm660.0
+vendor/lib/hw/sound_trigger.primary.default.so:vendor/lib/hw/sound_trigger.primary.sdm660.so|10e790454f662d45826656764d7a1db1428229b8
+vendor/lib/libgcs-calwrapper.so|5bd250b659a7de46ab32b7b02468a9a885342407
+vendor/lib/libgcs-ipc.so|583de272d97371381a2d5c417ab596877bb2a0f9
+vendor/lib/libgcs-osal.so|3bbaf8c6adf4fe84495042c642c9772ecb5a2649
+vendor/lib/libgcs.so|7d706d479cbb0dd8d6a6f29fa184faec9f5823f8
+vendor/lib/vendor.qti.voiceprint@1.0.so|3dffa718e840d4a8e47c01e825ab259e02069aab
+vendor/lib64/libgcs-calwrapper.so|ad078cad48a5646c77696b1d6448fad2443d1878
+vendor/lib64/libgcs-ipc.so|dc0102a252571bb2aceca859c13d90ac288ea9ff
+vendor/lib64/libgcs-osal.so|b0f43c6fdbbe5a2aadd338792f6d137ca2a6317d
+vendor/lib64/libgcs.so|3ffe9bd1295ab8ee217f647f3485130490792c3b
+vendor/lib64/vendor.qti.voiceprint@1.0.so|a78b2dc7753394bcfa0d81e40ba5ab063029f20c
 
 # Media - from LA.UM.8.2.r1-04000-sdm660.0
 vendor/lib/libAlacSwDec.so|bca4278cb74a63772a0fc369480b5d9814063d9b
