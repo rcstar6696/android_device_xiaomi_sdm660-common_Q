@@ -166,6 +166,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.min.fling_velocity=160 \
     ro.max.fling_velocity=20000
 
+# FM
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.hw.fm.init=0
+
 # GMS
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.clientidbase.ms=android-xiaomi-rev2
