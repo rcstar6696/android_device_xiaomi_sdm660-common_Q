@@ -175,6 +175,10 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio \
     qcom.fmradio.xml
+		
+# FM JAR
+PRODUCT_BOOT_JARS += \
+    qcom.fmradio
 
 # Folio
 PRODUCT_PACKAGES += \
