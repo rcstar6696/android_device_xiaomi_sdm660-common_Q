@@ -188,6 +188,19 @@ vendor/lib64/libFidoCrypto_vendor.so|4cc8d054895e7eb78b35c42cbcf7d0184e9e88f4
 vendor/lib/libFIDOKeyProvisioning.so|35703aca065213fa86f095a557ae2dbebccfe336
 vendor/lib64/libFIDOKeyProvisioning.so|4df3293d1c62a5b1454d5162298a09a61d0d9c38
 
+# FM - from jasmine_sprout 9 PKQ1.180904.001 V10.0.17.0.PDIMIXM release-keys
+lib/libfm-hci.so|ad7e34a7df8e51c7308adc177b0ed328e7db0dce
+lib/fm_helium.so|fb2a591a61122bbdf818ba9e6c931aa7c3d8a953
+lib64/libfm-hci.so|91bd4fad13d3d675f8e47f06b5622af6d33b1c24
+lib64/fm_helium.so|e41e3a18f5a0dc666adad471e7332c707b4d2044
+vendor/bin/fm_qsoc_patches|ea7004d7d85227e56df2f8b49a529df92f6b8726
+-lib/vendor.qti.hardware.fm@1.0.so|a49989075a58bb0292f24b46610c481e59043d68
+-lib64/vendor.qti.hardware.fm@1.0.so|e72205810d49a96b01edefc5e18e5c181a4555d2
+vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|86868d5881edec74cf0b22a77fc69a67d379d51e
+vendor/lib/vendor.qti.hardware.fm@1.0.so|cfa66eaded02ef69e2323fa070f2cb97aa718dd7
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|a0c6c4db121efb49bf039951d531fb09f3f233fe
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|db3afdb3dcc6e39effed66e6397131a1dafd86a1
+
 # GPS - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/bin/hw/vendor.qti.gnss@2.0-service|7f92f169ef8fac413d517636bf9844c5abb6a044
 vendor/bin/loc_launcher|1705e75180e9bdf1ce7aa00bc9ce1d7c07e8fd74
